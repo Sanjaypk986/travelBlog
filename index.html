@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomadic Notes</title>
+    <link rel="icon" href="./icons8-beach-96.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header >
+        <nav class="navbar p-6" id="navbar">
+            <a href="#" class="navbar-brand font-semibold ">Nomadic Notes</a>
+            <ul class="navbar-links" id="navbar-links">
+                <li><a class="text-lg" href="#">Home</a></li>
+                <li><a class="text-lg" href="#blog">Blog</a></li>
+                <li><a class="text-lg" href="#about">About</a></li>
+                <li><a class="text-lg " href="#contact">Contact</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main>
+        <section class="section1 py-10 ">
+            <div class="container mx-auto px-4 flex flex-col justify-center bg-#A7ABBC">
+                <h1 class="my-7 text-center text-3xl lg:text-5xl">Documenting the very best in food and travel.</h1>
+                <a class="primaryBtn border rounded px-10 py-3 text-lg mx-auto mb-7" href="#">Explore</a>
+                <div class="grid mb-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-auto lg:mb-10">
+                    <div >
+                        <article class="text-center">
+                            <img class="mainImg w-full h-auto mb-3 rounded" src="https://images.squarespace-cdn.com/content/v1/624b503beaa0101b5bdb9583/1651555805660-JT8SP70G5TAKHMFW4FUM/landing-left-right-01.jpeg?format=500w" alt="">
+                            <span>jun 19, 2019</span>
+                            <h3 class="mb-5 mt-2 font-semibold text-xl lg:text:4xl">Top 10 Places to See This Year</h3>
+                            <a class="primary border rounded px-6 py-2 mx-auto" href="#">Read More =></a>
+                        </article>
+    
+                    </div>
+                    <div>
+                        <article class="text-center">
+                            <img class="mainImg w-full h-auto mb-3  " src="https://images.squarespace-cdn.com/content/v1/624b503beaa0101b5bdb9583/1651555872279-OCQCK1RF2Z08AOEY7TQW/IMG_0363.jpeg?format=500w" alt="">
+                            <span>jun 15, 2019</span>
+                            <h3 class="mb-5 mt-2 font-semibold text-xl lg:text:4xl">Review: Give Thanks Cafe</h3>
+                            <a class="primary border rounded px-6 py-2 mx-auto" href="#">Read More =></a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section2 bg-gray-100 pt-10 pb-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl lg:text-4xl mb-6 text-center" id="about">About Us</h2>
+                <div class="grid grid-cols-1 lg:w-3/4 mx-auto gap-6">
+                    <div class="mb-4 lg:mb-0">
+                        <p class="text-base lg:text-lg leading-relaxed text-justify mb-4">
+                            Nomadic Notes is a captivating travel and food blog that embodies the essence of wanderlust and culinary exploration. The name 'Nomadic Notes' symbolizes the nomadic lifestyle of travel enthusiasts who traverse the globe, chronicling their adventures and experiences.
+                        </p>
+                        <p class="text-base lg:text-lg leading-relaxed text-justify">
+                            This blog serves as a virtual journal of globetrotting escapades, offering insightful travel guides, destination recommendations, and mouthwatering culinary discoveries. Whether you're seeking travel inspiration or culinary delights from around the world, Nomadic Notes invites you to embark on a journey of discovery and appreciation for diverse cultures and cuisines. Join us as we navigate the nomadic world of travel and food, one note at a time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3 py-10 border-b-2">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl lg:text-4xl pb-6 text-center" id="blog">Blog</h2>
+                <div class="grid pt-5 mb-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 mx-auto lg:mb-10">
+                    <div class="flex flex-col justify-center  gap-5">
+                        <h3 class="food text-3xl lg:text-5xl">Food</h3>
+                        <p>We all have to eat, so why not do it beautifully?</p>
+                        <a class="primary border rounded px-6 py-2 text-center" href="#">Read More =></a>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="imgSec2 w-full h-full object-cover" src="https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""> 
+                        <span class="mt-3">May 19, 2019</span>
+                            <h4 class="text-center mb-5 mt-2 font-semibold text-lg lg:text:4xl">Cooking with Squash</h4>
+                            <a class="button" href="#">See More</a>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="imgSec2 w-full h-full object-cover" src="https://images.squarespace-cdn.com/content/v1/624b503beaa0101b5bdb9583/1651556055427-KJ0DRMCCUPLTYX2J5NZJ/camp_026.jpeg?format=500w" alt=""> 
+                        <span class="mt-3">May 10, 2019</span>
+                            <h4 class="text-center mb-5 mt-2 font-semibold text-lg lg:text:4xl">Cheese Plates 101: Building .</h4>
+                            <a class="button" href="#">See More</a>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="imgSec2 w-full h-full object-cover" src="https://images.squarespace-cdn.com/content/v1/624b503beaa0101b5bdb9583/1649102908600-9Q7QD3MCSP7LO25BSGF3/CH4_04_BEEF_MUSHROOM_LASAGNA_020.jpg?format=300w" alt=""> 
+                        <span class="mt-3">Apr 14, 2019</span>
+                            <h4 class="text-center mb-5 mt-2 font-semibold text-lg lg:text:4xl">Rethinking the Lasagna</h4>
+                            <a class="button" href="#">See More</a>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+        <section class="section4 py-10">
+            <div class="container mx-auto px-4">
+                <div class="grid mb-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 mx-auto lg:mb-10">
+                    <div class="flex flex-col justify-center  gap-5">
+                        <h3 class="travel text-3xl lg:text-5xl">Travel</h3>
+                        <p>Nothing refreshes the mind, body and soul like travel.</p>
+                        <a class="primary border rounded px-6 py-2 text-center"  href="#">Read More =></a>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="imgSec2 w-full h-full object-cover" src="https://images.squarespace-cdn.com/content/v1/624b503beaa0101b5bdb9583/1651555950438-0Z76UBTEQEFC60SLAEWC/PDN47.jpeg?format=300w" alt=""> 
+                        <span class="mt-3">Jul 11, 2019</span>
+                            <h4 class="text-center mb-5 mt-2 font-semibold text-lg lg:text:4xl">Summer's Best Adventures</h4>
+                            <a class="button" href="#">See More</a>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="imgSec2 w-full h-full object-cover" src="https://images.squarespace-cdn.com/content/v1/624b503beaa0101b5bdb9583/1651555980630-H4XBGHCYQY2ZSL5H0R9G/Aro%2BHa_0498.jpeg?format=300w" alt=""> 
+                        <span class="mt-3">Jul 7, 2019</span>
+                            <h4 class="text-center mb-5 mt-2 font-semibold text-lg lg:text:4xl">Explore: New Zealand</h4>
+                            <a class="button" href="#">See More</a>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="imgSec2 w-full h-full object-cover" src="https://images.squarespace-cdn.com/content/v1/624b503beaa0101b5bdb9583/1651555995664-1KG6CG0F912NFTXR66C8/Aro%2BHa_0729.jpeg?format=500w" alt=""> 
+                        <span class="mt-3">Mar 9, 2019</span>
+                            <h4 class="text-center mb-5 mt-2 font-semibold text-lg lg:text:4xl">Stay at Aro Ha Hotel</h4>
+                            <a class="button" href="#">See More</a>
+                    </div>                   
+                </div>
+            </div>
+        </section>        
+        <section class="section5 bg-gray-100 py-10">
+            <div class="container mx-auto px-4 lg:w-1/2">
+                <h2 class="text-2xl lg:text-4xl  mb-6 text-center" id="contact">Contact</h2>
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-200">Send</button>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 py-4">
+        <div class="container px-4 mx-auto gap-5 flex flex-col lg:flex-row justify-between items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div>
+                <ul class="flex gap-5 text-white">
+                    <li><a class="text-lg hover:opacity-75" href="#">Home</a></li>
+                    <li><a class="text-lg hover:opacity-75" href="#">Blog</a></li>
+                    <li><a class="text-lg hover:opacity-75" href="#">About</a></li>
+                    <li><a class="text-lg hover:opacity-75 " href="#">Contact</a></li>
+                </ul>                
+            </div>
+            <div class="text-white text-sm opacity-75">
+                &copy;2024 Nomadic Notes. All rights reserved.
+            </div>
+            <div >
+                <span class="text-white mr-4">Follow us:</span>
+                <a href="#" class="text-white mr-4 hover:text-gray-400 transition duration-300"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mr-4 hover:text-gray-400 transition duration-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mr-4 hover:text-gray-400 transition duration-300"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white hover:text-gray-400 transition duration-300"><i class="fab fa-linkedin"></i></a>
+            </div>           
+        </div>
+    </footer>
+</body>
+</html>
